@@ -60,4 +60,10 @@ export default {
   server: {
     port: 3030, // default: 3000, need to change when server has multiple node apps to prevent port conflict.
   },
+
+  mode: 'spa',
+  target: 'server',
+  generate: {
+    fallback: true,
+  },
 }
