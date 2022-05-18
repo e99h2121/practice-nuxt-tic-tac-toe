@@ -9,7 +9,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap',
+      },
     ],
   },
 
@@ -44,7 +48,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    proxyHeaders: false
+    proxyHeaders: false,
   },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -55,5 +59,5 @@ export default {
 
   server: {
     port: 3030, // default: 3000, need to change when server has multiple node apps to prevent port conflict.
-  }
+  },
 }
